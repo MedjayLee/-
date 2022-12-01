@@ -1,0 +1,35 @@
+.no-border{
+    border: none !important;
+}
+.sign-in::before{
+    background-image: url("../img/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-size: 16px, 16px;
+    background-position-y: 5px;
+    content: "";
+    margin-right: 5px;
+    width: 16px;
+    height: 20px;
+    float: left;
+}
+.test-btn::after{
+    background-image: url("../img/arrow-rh.svg");
+    background-repeat: no-repeat;
+    background-size: 16px, 16px;
+    background-position-y: 9px;
+    margin-left: 12px;
+    content: "";
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+.prim{
+    background: #38BFF2;
+}
+.orange{
+    color: #F15525;
+}
+.bg-orange{
+    background: #F15525;
+
+}
