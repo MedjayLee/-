@@ -1,13 +1,21 @@
 @font-face {
     font-family: "Gilroy Regular";
+<<<<<<< HEAD
     src: url(../fonts/Gilroy-Regular.ttf);
+=======
+    src: url("../fonts/Gilroy-Regular.ttf");
+>>>>>>> bac22f3797c4702d376d1323eedcd8f217acd732
 }
 .gilroy-regular{
     font-family: "Gilroy Regular";
 }
 @font-face {
     font-family: "Gilroy Medium";
+<<<<<<< HEAD
     src: url(../fonts/Gilroy-Medium.ttf);
+=======
+    src: url("../fonts/Gilroy-Medium.ttf");
+>>>>>>> bac22f3797c4702d376d1323eedcd8f217acd732
 }
 .gilroy-medium{
     font-family: "Gilroy Medium";
