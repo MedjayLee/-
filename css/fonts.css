@@ -19,10 +19,26 @@
 .gilroy-semibold{
     font-family: 'Gilroy Semibold';
 }
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+.gilroy-bold{
+    font-family: 'Gilroy Bold';
+}
 
 
+.text77{
+    font-size: 77px;
+}
 .text46{
     font-size: 46px;
+}
+.text32{
+    font-size: 32px;
+}
+.text24{
+    font-size: 24px;
 }
 .text20{
     font-size: 20px;

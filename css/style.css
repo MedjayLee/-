@@ -37,3 +37,36 @@
 .background-sc{
     background: #EAF2F5 !important;
 }
+
+.course-card{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.course-card:hover{
+    background-color: #38BFF2 !important;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.course-pill{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.course-pill:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
