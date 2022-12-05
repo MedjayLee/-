@@ -12,3 +12,27 @@
 .gilroy-medium{
     font-family: 'Gilroy Medium';
 }
+@font-face {
+    font-family: 'Gilroy Semibold';
+    src: url("../fonts/Gilroy-Semibold.ttf");
+}
+.gilroy-semibold{
+    font-family: 'Gilroy Semibold';
+}
+
+
+.text46{
+    font-size: 46px;
+}
+.text20{
+    font-size: 20px;
+}
+.text17{
+    font-size: 17px;
+}
+.text16{
+    font-size: 16px;
+}
+.text13{
+    font-size: 13px;
+}
