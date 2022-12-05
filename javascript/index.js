@@ -1,5 +1,4 @@
 let scrollBtn = document.getElementById("scrollBtn")
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -10,8 +9,18 @@ function scrollFunction() {
   }
 }
 scrollBtn.addEventListener("click", topFunction)
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navBar").style.top = "0";
+  } else {
+    document.getElementById("navBar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
 }
